@@ -11,7 +11,7 @@ function valuePromise(e) {
   } = e.currentTarget;
 
   const firstDelay = Number(delay.value);
-  const time = Number(delay.value) + Number(step.value) * Number(amount.value);
+  const time = Number(delay.value) + Number(step.value) * Number(amount.value - 1) ;
   const stepDelay = Number(step.value);
 
   let position = 1;
